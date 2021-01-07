@@ -8,7 +8,7 @@ page 50100 "Incident List"
     CardPageId = "Incident Card";
     RefreshOnActivate = true;
     SourceTable = "Incident";
-    SourceTableView = sorting ("Entry No.") order(descending);
+    SourceTableView = sorting("Entry No.") order(descending);
 
     layout
     {
@@ -16,53 +16,53 @@ page 50100 "Incident List"
         {
             repeater(Group)
             {
-                field("Entry No."; "Entry No.")
+                field("Entry No."; Rec."Entry No.")
                 {
                     caption = 'Entry No.';
                     Visible = false;
                     ApplicationArea = All;
                 }
-                field("Customer No."; "Customer No.")
+                field("Customer No."; Rec."Customer No.")
                 {
                     caption = 'Customer No.';
                     ApplicationArea = All;
                 }
-                field(Date; Date)
+                field(Date; Rec.Date)
                 {
                     caption = 'Date';
                     ApplicationArea = All;
                 }
-                field(Type; Type)
+                field(Type; Rec.Type)
                 {
                     caption = 'Type';
                     ApplicationArea = All;
                 }
-                field("Duration (Hours)"; "Duration (Hours)")
+                field("Duration (Hours)"; Rec."Duration (Hours)")
                 {
                     caption = 'Duration (Hours)';
                     ApplicationArea = All;
                 }
-                field(Comment; Comment)
+                field(Comment; Rec.Comment)
                 {
                     caption = 'Comment';
                     ApplicationArea = All;
                 }
-                field(Picture; Picture)
+                field(Picture; Rec.Picture)
                 {
                     caption = 'Picture';
                     ApplicationArea = All;
                 }
-                field("GPS Coordinates (dec. degrees)"; "GPS Coordinates (dec. degrees)")
+                field("GPS Coordinates (dec. degrees)"; Rec."GPS Coordinates (dec. degrees)")
                 {
                     caption = 'GPS Coordinates (dec. degrees)';
                     ApplicationArea = All;
                 }
-                field("QR Code"; "QR Code")
+                field("QR Code"; Rec."QR Code")
                 {
                     caption = 'QR Code';
                     ApplicationArea = All;
                 }
-                field("Bar Code"; "Bar Code")
+                field("Bar Code"; Rec."Bar Code")
                 {
                     caption = 'Bar Code';
                     ApplicationArea = All;
@@ -76,7 +76,7 @@ page 50100 "Incident List"
             {
                 caption = 'Customer Statistics';
                 ApplicationArea = All;
-                SubPageLink = "No." = FIELD ("Customer No.");
+                SubPageLink = "No." = FIELD("Customer No.");
             }
         }
     }

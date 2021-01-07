@@ -17,24 +17,24 @@ page 50105 "Incident Entity"
         {
             repeater(GroupName)
             {
-                field(id; Id)
+                field(id; Rec.Id)
                 {
                     Caption = 'id', Locked = true;
                     Editable = false;
                     ApplicationArea = All;
                 }
-                field(entryNo; "Entry No.")
+                field(entryNo; Rec."Entry No.")
                 {
                     Caption = 'entryNo', Locked = true;
                     Editable = false;
                     ApplicationArea = All;
                 }
-                field(customerNo; "Customer No.")
+                field(customerNo; Rec."Customer No.")
                 {
                     Caption = 'customerNo', Locked = true;
                     ApplicationArea = All;
                 }
-                field(date; Date)
+                field(date; Rec.Date)
                 {
                     Caption = 'date', Locked = true;
                     ApplicationArea = All;
@@ -44,22 +44,22 @@ page 50105 "Incident Entity"
                     Caption = 'type', Locked = true;
                     ApplicationArea = All;
                 }
-                field(durationHours; "Duration (Hours)")
+                field(durationHours; Rec."Duration (Hours)")
                 {
                     Caption = 'durationHours', Locked = true;
                     ApplicationArea = All;
                 }
-                field(comment; Comment)
+                field(comment; Rec.Comment)
                 {
                     Caption = 'comment', Locked = true;
                     ApplicationArea = All;
                 }
-                field(gpsCoordinatesDecDegrees; "GPS Coordinates (dec. degrees)")
+                field(gpsCoordinatesDecDegrees; Rec."GPS Coordinates (dec. degrees)")
                 {
                     Caption = 'gpsCoordinatesDecDegrees', Locked = true;
                     ApplicationArea = All;
                 }
-                field(barCode; "Bar Code")
+                field(barCode; Rec."Bar Code")
                 {
                     Caption = 'barCode', Locked = true;
                     ApplicationArea = All;

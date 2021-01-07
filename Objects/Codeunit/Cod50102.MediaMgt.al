@@ -1,7 +1,8 @@
 codeunit 50102 "Media Mgt."
 {
     var
-        TempBlob: record TempBlob temporary;
+        tempblob: Codeunit "Temp Blob";
+        Base64Convert: codeunit "Base64 Convert";
 
     local procedure GetItemPictureToBase64String(Item: Record Item): Text;
     var
@@ -19,13 +20,9 @@ codeunit 50102 "Media Mgt."
             clear(PictureText);
             clear(PictureInStream);
             TenantMedia.Content.CreateInStream(PictureInStream);
-            TempBlob.Init();
-            TempBlob.Blob.CreateOutStream(PictureOutStream);
+            tempblob.CreateOutStream(PictureOutStream);
             CopyStream(PictureOutStream, PictureInStream);
-            TempBlob.Insert();
-            TempBlob.CalcFields(Blob);
-            PictureText := TempBlob.ToBase64String();
-            TempBlob.Delete();
+            PictureText := Base64Convert.ToBase64(PictureInStream);
             exit(PictureText);
         end;
 
@@ -39,8 +36,8 @@ codeunit 50102 "Media Mgt."
         if NewPictureText = '' then
             exit;
 
-        TempBlob.FromBase64String(NewPictureText);
-        TempBlob.Blob.CreateInStream(PictureInStream);
+        Base64Convert.FromBase64(NewPictureText);
+        tempblob.CreateInStream(PictureInStream);
 
         clear(item.Picture);
         item.Picture.ImportStream(PictureInStream, item."No." + ' ' + item.Description + '.jpg');
@@ -52,13 +49,9 @@ codeunit 50102 "Media Mgt."
         MyOutStream: OutStream;
         InStreamText: Text;
     begin
-        TempBlob.Init();
-        TempBlob.Blob.CreateOutStream(MyOutStream);
+        tempblob.CreateOutStream(MyOutStream);
         CopyStream(MyOutStream, MyInStream);
-        TempBlob.Insert();
-        TempBlob.CalcFields(Blob);
-        InStreamText := TempBlob.ToBase64String();
-        TempBlob.Delete();
+        InStreamText := Base64Convert.ToBase64(MyInStream);
         exit(InStreamText);
     end;
 
@@ -71,8 +64,8 @@ codeunit 50102 "Media Mgt."
             FileExtension := GetFileExtension(MimeType);
             MyText := CopyStr(MyText, StrPos(MyText, ',') + 1);
         end;
-        TempBlob.FromBase64String(MyText);
-        TempBlob.Blob.CreateInStream(MyInStream);
+        Base64Convert.ToBase64(MyText);
+        tempblob.CreateInStream(MyInStream);
     end;
 
     local procedure GetFileExtension(MimeType: Text): Text;

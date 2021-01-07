@@ -12,19 +12,19 @@ page 50101 "Incident Card"
             group(General)
             {
                 caption = 'General';
-                field("Entry No."; "Entry No.")
+                field("Entry No."; Rec."Entry No.")
                 {
                     caption = 'Entry No.';
                     Visible = false;
                     Editable = false;
                     ApplicationArea = All;
                 }
-                field("Customer No."; "Customer No.")
+                field("Customer No."; Rec."Customer No.")
                 {
                     caption = 'Customer No.';
                     ApplicationArea = All;
                 }
-                field(Date; Date)
+                field(Date; Rec.Date)
                 {
                     caption = 'Date';
                     ApplicationArea = All;
@@ -33,38 +33,38 @@ page 50101 "Incident Card"
             group(Incident)
             {
                 caption = 'Incident';
-                field(Type; Type)
+                field(Type; Rec.Type)
                 {
                     caption = 'Type';
                     ApplicationArea = All;
                 }
-                field("Duration (Hours)"; "Duration (Hours)")
+                field("Duration (Hours)"; Rec."Duration (Hours)")
                 {
                     caption = 'Duration (Hours)';
                     ApplicationArea = All;
                 }
-                field(Comment; Comment)
+                field(Comment; Rec.Comment)
                 {
                     caption = 'Comment';
                     ApplicationArea = All;
                 }
-                field(Picture; Picture)
+                field(Picture; Rec.Picture)
                 {
                     caption = 'Picture';
                     ApplicationArea = All;
                 }
 
-                field("GPS Coordinates (dec. degrees)"; "GPS Coordinates (dec. degrees)")
+                field("GPS Coordinates (dec. degrees)"; Rec."GPS Coordinates (dec. degrees)")
                 {
                     caption = 'GPS Coordinates (dec. degrees)';
                     ApplicationArea = All;
                 }
-                field("QR Code"; "QR Code")
+                field("QR Code"; Rec."QR Code")
                 {
                     caption = 'QR Code';
                     ApplicationArea = All;
                 }
-                field("Bar Code"; "Bar Code")
+                field("Bar Code"; Rec."Bar Code")
                 {
                     caption = 'Bar Code';
                     ApplicationArea = All;
@@ -78,19 +78,19 @@ page 50101 "Incident Card"
             {
                 caption = 'Incident Picture';
                 ApplicationArea = All;
-                SubPageLink = "Entry No." = field ("Entry No.");
+                SubPageLink = "Entry No." = field("Entry No.");
             }
             part(IncidentQRCode; 50104)
             {
                 caption = 'Incident QR Code';
                 ApplicationArea = All;
-                SubPageLink = "Entry No." = field ("Entry No.");
+                SubPageLink = "Entry No." = field("Entry No.");
             }
             part(CustomerStatisticsFactBox; 9082)
             {
                 caption = 'Customer Statistics';
                 ApplicationArea = All;
-                SubPageLink = "No." = FIELD ("Customer No.");
+                SubPageLink = "No." = FIELD("Customer No.");
             }
         }
     }

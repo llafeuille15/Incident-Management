@@ -11,7 +11,7 @@ page 50104 "Incident QR Code"
     {
         area(Content)
         {
-            field("QR Code"; "QR Code")
+            field("QR Code"; Rec."QR Code")
             {
                 Caption = 'QR Code';
                 ShowCaption = false;

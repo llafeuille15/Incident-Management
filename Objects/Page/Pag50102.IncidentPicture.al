@@ -11,7 +11,7 @@ page 50102 "Incident Picture"
     {
         area(Content)
         {
-            field(Picture; Picture)
+            field(Picture; Rec.Picture)
             {
                 Caption = 'Picture';
                 ShowCaption = false;
