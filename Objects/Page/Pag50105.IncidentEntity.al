@@ -39,7 +39,7 @@ page 50105 "Incident Entity"
                     Caption = 'date', Locked = true;
                     ApplicationArea = All;
                 }
-                field(type; Type)
+                field(type; rec.Type)
                 {
                     Caption = 'type', Locked = true;
                     ApplicationArea = All;
@@ -94,9 +94,9 @@ page 50105 "Incident Entity"
 
     trigger OnInsertRecord(BelowxRec: Boolean): Boolean
     begin
-        Insert(true);
-        SetPictureFromBase64(PictureBase64);
-        SetQRCodeFromBase64(QRCodeBase64);
+        Rec.Insert(true);
+        Rec.SetPictureFromBase64(PictureBase64);
+        Rec.SetQRCodeFromBase64(QRCodeBase64);
 
         SetCalculatedFields();
         exit(false);
@@ -106,15 +106,15 @@ page 50105 "Incident Entity"
     var
         Incident: record Incident;
     begin
-        Incident.SetRange(Id, Id);
+        Incident.SetRange(Id, Rec.Id);
         Incident.FindFirst();
 
-        if "Entry No." = Incident."Entry No." then
-            modify(true)
+        if Rec."Entry No." = Incident."Entry No." then
+            Rec.modify(true)
         else begin
             Incident.TransferFields(Rec, false);
-            Incident.Rename("Entry No.");
-            TransferFields(Incident, true);
+            Incident.Rename(Rec."Entry No.");
+            Rec.TransferFields(Incident, true);
         end;
 
         SetCalculatedFields();
@@ -123,13 +123,13 @@ page 50105 "Incident Entity"
 
     local procedure SetCalculatedFields()
     begin
-        PictureBase64 := GetPictureAsBase64();
-        QRCodeBase64 := GetQRCodeAsBase64();
+        PictureBase64 := Rec.GetPictureAsBase64();
+        QRCodeBase64 := Rec.GetQRCodeAsBase64();
     end;
 
     local procedure ClearCalculatedFields()
     begin
-        Clear(Id);
+        Clear(Rec.Id);
         Clear(PictureBase64);
         Clear(QRCodeBase64);
     end;

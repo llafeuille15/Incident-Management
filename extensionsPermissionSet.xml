@@ -62,7 +62,7 @@
       <SecurityFilter />
     </Permission>
     <Permission>
-      <ObjectID>50102</ObjectID>
+      <ObjectID>50104</ObjectID>
       <ObjectType>8</ObjectType>
       <ReadPermission>0</ReadPermission>
       <InsertPermission>0</InsertPermission>
@@ -72,7 +72,7 @@
       <SecurityFilter />
     </Permission>
     <Permission>
-      <ObjectID>50104</ObjectID>
+      <ObjectID>50102</ObjectID>
       <ObjectType>8</ObjectType>
       <ReadPermission>0</ReadPermission>
       <InsertPermission>0</InsertPermission>

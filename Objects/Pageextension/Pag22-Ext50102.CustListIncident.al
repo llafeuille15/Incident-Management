@@ -18,15 +18,15 @@ pageextension 50102 "Cust. List Incident" extends "Customer List"
 
                 trigger OnAction();
                 var
-                    TempBlob: record TempBlob temporary;
+                    TempBlob: Codeunit "Temp Blob";
                     MyOutStream: OutStream;
                     MyInStream: InStream;
                     FileName: Text;
                 begin
-                    TempBlob.Blob.CreateOutStream(MyOutStream);
+                    TempBlob.CreateOutStream(MyOutStream);
                     Xmlport.Export(Xmlport::"Export Customer", MyOutStream);
-                    TempBlob.Blob.CreateInStream(MyInStream);
-                    FileName := TableCaption() + '.txt';
+                    TempBlob.CreateInStream(MyInStream);
+                    FileName := Rec.TableCaption() + '.txt';
                     DownloadFromStream(MyInStream, '', '', '', FileName);
                 end;
             }
@@ -37,7 +37,7 @@ pageextension 50102 "Cust. List Incident" extends "Customer List"
                 Image = Alerts;
                 Promoted = true;
                 RunObject = page "Incident List";
-                RunPageLink = "Customer No." = field ("No.");
+                RunPageLink = "Customer No." = field("No.");
             }
         }
     }

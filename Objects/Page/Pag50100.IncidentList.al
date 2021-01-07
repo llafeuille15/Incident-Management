@@ -94,15 +94,15 @@ page 50100 "Incident List"
 
                 trigger OnAction();
                 var
-                    TempBlob: record TempBlob temporary;
+                    TempBlob: Codeunit "Temp Blob";
                     MyOutStream: OutStream;
                     MyInStream: InStream;
                     FileName: Text;
                 begin
-                    TempBlob.Blob.CreateOutStream(MyOutStream);
+                    TempBlob.CreateOutStream(MyOutStream);
                     Xmlport.Export(Xmlport::"Import/Export Incident", MyOutStream);
-                    TempBlob.Blob.CreateInStream(MyInStream);
-                    FileName := TableCaption() + '.xml';
+                    TempBlob.CreateInStream(MyInStream);
+                    FileName := Rec.TableCaption() + '.xml';
                     DownloadFromStream(MyInStream, '', '', '', FileName);
                 end;
             }

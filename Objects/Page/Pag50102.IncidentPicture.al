@@ -72,7 +72,7 @@ page 50102 "Incident Picture"
 
     local procedure SetEditableOnPictureActions()
     begin
-        DeleteExportEnabled := Picture.COUNT() <> 0;
+        DeleteExportEnabled := Rec.Picture.COUNT() <> 0;
     end;
 
     procedure ImportFromDevice()
@@ -83,14 +83,14 @@ page 50102 "Incident Picture"
         PicInStream: InStream;
         FromFileName: Text;
     begin
-        if Picture.Count() > 0 then
+        if Rec.Picture.Count() > 0 then
             if not Confirm(OverridePictureQst) then
                 exit;
 
         if UploadIntoStream(DialogTitleLbl, '', FromFilterLbl, FromFileName, PicInStream) then begin
-            Clear(Picture);
-            Picture.ImportStream(PicInStream, FromFileName);
-            Modify(true);
+            Clear(Rec.Picture);
+            Rec.Picture.ImportStream(PicInStream, FromFileName);
+            Rec.Modify(true);
         end;
     end;
 
@@ -102,14 +102,14 @@ page 50102 "Incident Picture"
         Index: Integer;
         FileName: Text;
     begin
-        if Picture.Count() = 0 then
+        if Rec.Picture.Count() = 0 then
             exit;
 
-        for Index := 1 to Picture.Count() do
-            if TenantMedia.Get(Picture.Item(Index)) then begin
+        for Index := 1 to Rec.Picture.Count() do
+            if TenantMedia.Get(Rec.Picture.Item(Index)) then begin
                 TenantMedia.calcfields(Content);
                 if TenantMedia.Content.HasValue() then begin
-                    FileName := TableCaption() + ImageLbl + format(Index) + GetTenantMediaFileExtension(TenantMedia);
+                    FileName := Rec.TableCaption() + ImageLbl + format(Index) + GetTenantMediaFileExtension(TenantMedia);
                     TenantMedia.Content.CreateInStream(PicInStream);
                     DownloadFromStream(PicInStream, '', '', '', FileName);
                 end;
@@ -123,8 +123,8 @@ page 50102 "Incident Picture"
         IF NOT CONFIRM(DeletePictureQst) THEN
             EXIT;
 
-        CLEAR(Picture);
-        MODIFY(TRUE);
+        CLEAR(Rec.Picture);
+        Rec.MODIFY(TRUE);
     end;
 
     local procedure GetTenantMediaFileExtension(var TenantMedia: Record "Tenant Media"): Text;

@@ -72,7 +72,7 @@ page 50104 "Incident QR Code"
 
     local procedure SetEditableOnQRCodeActions()
     begin
-        DeleteExportEnabled := "QR Code".HasValue();
+        DeleteExportEnabled := Rec."QR Code".HasValue();
     end;
 
     procedure ImportFromDevice()
@@ -83,14 +83,14 @@ page 50104 "Incident QR Code"
         QRCodeInStream: InStream;
         FromFileName: Text;
     begin
-        if "QR Code".HasValue() then
+        if Rec."QR Code".HasValue() then
             if not Confirm(OverrideQRCodeQst) then
                 exit;
 
         if UploadIntoStream(DialogTitleLbl, '', FromFilterLbl, FromFileName, QRCodeInStream) then begin
-            Clear("QR Code");
-            "QR Code".ImportStream(QRCodeInStream, FromFileName);
-            Modify(true);
+            Clear(Rec."QR Code");
+            Rec."QR Code".ImportStream(QRCodeInStream, FromFileName);
+            Rec.Modify(true);
         end;
     end;
 
@@ -101,13 +101,13 @@ page 50104 "Incident QR Code"
         QRCodeInStream: InStream;
         FileName: Text;
     begin
-        if not ("QR Code".HasValue()) then
+        if not (Rec."QR Code".HasValue()) then
             exit;
 
-        if TenantMedia.Get("QR Code".MediaId()) then begin
+        if TenantMedia.Get(Rec."QR Code".MediaId()) then begin
             TenantMedia.calcfields(Content);
             if TenantMedia.Content.HasValue() then begin
-                FileName := TableCaption() + QRCodeLbl + GetTenantMediaFileExtension(TenantMedia);
+                FileName := Rec.TableCaption() + QRCodeLbl + GetTenantMediaFileExtension(TenantMedia);
                 TenantMedia.Content.CreateInStream(QRCodeInStream);
                 DownloadFromStream(QRCodeInStream, '', '', '', FileName);
             end;
@@ -121,8 +121,8 @@ page 50104 "Incident QR Code"
         IF NOT CONFIRM(DeleteQRCodeQst) THEN
             EXIT;
 
-        CLEAR("QR Code");
-        MODIFY(TRUE);
+        CLEAR(Rec."QR Code");
+        Rec.MODIFY(TRUE);
     end;
 
     local procedure GetTenantMediaFileExtension(var TenantMedia: Record "Tenant Media"): Text;

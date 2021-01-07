@@ -8,7 +8,7 @@ pageextension 50103 "Cust. Card Incident" extends "Customer Card"
             {
                 Caption = 'Incident';
 
-                field("No. of Incidents"; "No. of Incidents")
+                field("No. of Incidents"; Rec."No. of Incidents")
                 {
                     Caption = 'No. of Incidents';
                     ApplicationArea = All;
