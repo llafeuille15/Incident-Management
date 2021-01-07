@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="Incident Management" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="body" datatype="resx">
+        <trans-unit id="Table 1722204626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident</source>
+          <target state="translated">Incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">N° séquence</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">N° client</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Date</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="translated">Type</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 1060222432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration (Hours)</source>
+          <target state="translated">Durée (heures)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Duration (Hours) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target state="translated">Commentaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target state="translated">Image</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 3529872793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GPS Coordinates (dec. degrees)</source>
+          <target state="translated">Coordonnées GPS (degrés déc.)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field GPS Coordinates (dec. degrees) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 1160835642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR Code</source>
+          <target state="translated">QR code</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 570180224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bar Code</source>
+          <target state="translated">Code barre</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Bar Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1722204626 - Field 415504711 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>Id</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Incident - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident List</source>
+          <target state="translated">Incidents</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 883711285 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">N° séquence</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Entry No. - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 4190130733 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">N° client</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Customer No. - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 3192175264 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Date</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Date - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 1878130204 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="translated">Type</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Type - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 1060222432 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration (Hours)</source>
+          <target state="translated">Durée (heures)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Duration (Hours) - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 2790486453 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target state="translated">Commentaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Comment - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 1594621544 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target state="translated">Image</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Picture - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 3529872793 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GPS Coordinates (dec. degrees)</source>
+          <target state="translated">Coordonnées GPS (degrés déc.)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control GPS Coordinates (dec. degrees) - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 1160835642 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR Code</source>
+          <target state="translated">QR code</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control QR Code - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 570180224 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bar Code</source>
+          <target state="translated">Code barre</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control Bar Code - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Control 3357459424 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Statistics</source>
+          <target state="translated">Statistiques client</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Control CustomerStatisticsFactBox - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Export</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Import</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Action Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Action 3201496503 - Method 1377591017 - NamedType 2348021224" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XML Files (*.xml)|*.xml</source>
+          <target state="translated">Fichiers XML (*.xml)|*.xml</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Action Import - Method OnAction - NamedType FromFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Action 4220045315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cause Error</source>
+          <target state="translated">Provoquer erreur</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Action Cause Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2249082096 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target state="translated">Imprimer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident List - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident Card</source>
+          <target state="translated">Fiche incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 2445482498 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">Général</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control General - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 883711285 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">N° séquence</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Entry No. - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 4190130733 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">N° client</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Customer No. - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 3192175264 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Date</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Date - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 1722204626 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident</source>
+          <target state="translated">Incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Incident - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 1878130204 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="translated">Type</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Type - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 1060222432 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration (Hours)</source>
+          <target state="translated">Durée (heures)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Duration (Hours) - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 2790486453 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target state="translated">Commentaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Comment - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 1594621544 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target state="translated">Image</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Picture - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 3529872793 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GPS Coordinates (dec. degrees)</source>
+          <target state="translated">Coordonnées GPS (degrés déc.)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control GPS Coordinates (dec. degrees) - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 1160835642 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR Code</source>
+          <target state="translated">QR code</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control QR Code - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 570180224 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bar Code</source>
+          <target state="translated">Code barre</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control Bar Code - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 3768666094 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident Picture</source>
+          <target state="translated">Image incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control IncidentPicture - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 3836346172 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident QR Code</source>
+          <target state="translated">QR code incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control IncidentQRCode - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 787735670 - Control 3357459424 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Statistics</source>
+          <target state="translated">Statistiques client</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Card - Control CustomerStatisticsFactBox - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident Picture</source>
+          <target state="translated">Image incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Control 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <target state="translated">Image</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Control Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Import</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Action Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Export</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Action 2477294019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Supprimer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Action Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Method 2946154981 - NamedType 3234967306" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The existing picture will be replaced. Do you want to continue?</source>
+          <target state="translated">L'image existante sera remplacée. Voulez-vous continuer?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Method ImportFromDevice - NamedType OverridePictureQst</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Method 2946154981 - NamedType 1997510694" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Import</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Method ImportFromDevice - NamedType DialogTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Method 2946154981 - NamedType 2348021224" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Files (*.*)|*.*</source>
+          <target state="translated">Tous les fichiers (*.*)|*.*</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Method ImportFromDevice - NamedType FromFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Method 2909423161 - NamedType 2161360639" maxwidth="250" size-unit="char" translate="no" xml:space="preserve">
+          <source>_Image</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Method ExportToDevice - NamedType ImageLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2425628502 - Method 4072421557 - NamedType 3826076973" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the picture?</source>
+          <target state="translated">Êtes-vous sûr de vouloir supprimer la photo?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Picture - Method DeleteIncidentPicture - NamedType DeletePictureQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident QR Code</source>
+          <target state="translated">QR code incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Control 1160835642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR Code</source>
+          <target state="translated">QR code</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Control QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Import</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Action Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Export</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Action 2477294019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Supprimer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Action Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Method 2946154981 - NamedType 1179721592" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The existing QR Code will be replaced. Do you want to continue?</source>
+          <target state="translated">Le QR code existant sera remplacé. Voulez-vous continuer?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Method ImportFromDevice - NamedType OverrideQRCodeQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Method 2946154981 - NamedType 1997510694" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Import</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Method ImportFromDevice - NamedType DialogTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Method 2946154981 - NamedType 2348021224" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Files (*.*)|*.*</source>
+          <target state="translated">Tous les fichiers (*.*)|*.*</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Method ImportFromDevice - NamedType FromFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Method 2909423161 - NamedType 2648456304" maxwidth="250" size-unit="char" translate="no" xml:space="preserve">
+          <source>_QRCode</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Method ExportToDevice - NamedType QRCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1257499588 - Method 736971867 - NamedType 843981683" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the QR Code?</source>
+          <target state="translated">Êtes-vous sûr de vouloir supprimer le QR code?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident QR Code - Method DeleteIncidentQRCode - NamedType DeleteQRCodeQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>incidents</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 2686962215 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>id</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 2683860767 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>entryNo</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control entryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 1108861191 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>customerNo</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control customerNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 895206272 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>date</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 3175374588 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>type</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 1785498087 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>durationHours</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control durationHours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 2998405077 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>comment</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 3829937308 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>gpsCoordinatesDecDegrees</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control gpsCoordinatesDecDegrees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 3432399264 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>barCode</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control barCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 1463933576 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>picture</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1048242479 - Control 620518250 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
+          <source>qrCode</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Incident Entity - Control qrCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 755846347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident List</source>
+          <target state="translated">Incidents</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Incident - List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 755846347 - NamedType 3280331748" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident - List</source>
+          <target state="translated">Liste des clients</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Incident - List - NamedType IncidentListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Query 230733198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident by Year</source>
+          <target state="translated">Incident par année</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Incident by Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 230733198 - QueryColumn 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <target state="translated">Année</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Incident by Year - QueryColumn Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 230733198 - QueryColumn 4200802175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Incidents</source>
+          <target state="translated">Nbre d'incidents</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Incident by Year - QueryColumn NoOfIncidents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1982709052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import/Export Incident</source>
+          <target state="translated">Import/Export incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Import/Export Incident - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 2002435380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Customer</source>
+          <target state="translated">Export client</target>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Export Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1689761735 - Control 1722204626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident</source>
+          <target state="translated">Incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. Card Incident - Control Incident - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1689761735 - Control 2744572309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Incidents</source>
+          <target state="translated">Nbre d'incidents</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. Card Incident - Control No. of Incidents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1166688237 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Export</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. List Incident - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1166688237 - Action 1722204626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incident</source>
+          <target state="translated">Incident</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. List Incident - Action Incident - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2917807915 - Control 2744572309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Incidents</source>
+          <target state="translated">Nbre d'incidents</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. Stat. FB Incident - Control No. of Incidents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2721525374 - Field 2744572309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Incidents</source>
+          <target state="translated">Nbre d'incidents</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Incident - Field No. of Incidents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3292122866 - EnumValue 4294440508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="translated">Inconnu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Incident Type - EnumValue Unknown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3292122866 - EnumValue 2444778289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Support</source>
+          <target state="translated">Support</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Incident Type - EnumValue Support - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3292122866 - EnumValue 2876943422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equipment</source>
+          <target state="translated">Equipement</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Incident Type - EnumValue Equipment - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

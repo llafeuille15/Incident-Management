@@ -1,0 +1,27 @@
+{
+  "id": "9b2bea22-2293-4b53-895b-1a9268377f3d",
+  "name": "Incident Management",
+  "publisher": "Prodware",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./Logo/Incident.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "runtime": "6.0",
+  "features": ["TranslationFile"],
+  "showMyCode": false,
+  "supportedLocales": ["en-US","fr-FR"]
+}
